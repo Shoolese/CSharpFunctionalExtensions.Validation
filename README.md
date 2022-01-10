@@ -1,4 +1,13 @@
-#Todo:
+# Usage:
+```
+var str = "This is a string to validate
+var validationResult = str.IsNotNull().IsParseableToGuid().DoesNotContainAnyCapitalLetters().Validate();
+if (validationResult.IsFailure)
+  return Nope();
+```
+
+
+#Todo :
 
 | #     | Desc                                                                                                      | 
 |-------|-----------------------------------------------------------------------------------------------------------|
